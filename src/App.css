@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&family=Shadows+Into+Light&display=swap');
 
 /* 
-font-family: 'Architects Daughter', cursive;
 font-family: 'Roboto', sans-serif;
-font-family: 'Shadows Into Light', cursive;
 */
+:root { 
+  --bg-color: #ffc1b6;
+  --logo-color: #fdffbc;
+  --text-color: #ffeebb;
+}
+
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6 { 
+  font-family: 'Shadows Into Light', cursive;
+  color: var(--logo-color);
+}
+
+body { 
+  background-color: var(--bg-color);
+  font-family: 'Architects Daughter', cursive;
+}
+
+.score { color: var(--logo-color)}
