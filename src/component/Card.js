@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
+// add score and then log character id
+
 const Card = (props) => {
+  // console.log(props)
   return (
     <div className="col">
       <div className="card">
-        <img src={props.image} className="card-img-top" alt={props.name} />
+        <img src={props.image} className="card-img-top" alt={props.name}  onClick={() => props.clickfunct(props.charId) }/>
         <p className="card-text text-center">{props.name}</p>
       </div>
     </div>

@@ -24,4 +24,7 @@ body {
   font-family: 'Architects Daughter', cursive;
 }
 
-.score { color: var(--logo-color)}
+.score { 
+  color: var(--logo-color);
+  font-size: 1.5rem;
+}
