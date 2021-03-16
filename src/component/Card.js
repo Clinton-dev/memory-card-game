@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-// add score and then log character id
-
 const Card = (props) => {
   // console.log(props)
   return (
