@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import ScoreBoard from "./component/ScoreBoard";
 import Card from "./component/Card";
+import Alert from "./component/Alert";
 import './App.css';
 
 
@@ -80,6 +81,7 @@ function App() {
       <br />
       <ScoreBoard points={score} bScore={bestscore} />
       <br />
+      <Alert />
       <div className="row row-cols-3 row-cols-md-3 g-4">
         {characterComponent } 
       </div>
